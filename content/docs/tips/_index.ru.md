@@ -4,6 +4,22 @@ weight: 50
 description: Some tips that may help
 ---
 
+## Use stderr to debug
+
+Currently, CP Editor doesn't have a built-in GUI debugger, but it doesn't mean it's hard to debug codes using CP Editor.
+
+Besides single-stepping, the most used debugging approach is to output some variables. Do you remember the times you tried hard to distinguish the debugged variables from the normal outputs? You don't have to do this in CP Editor.
+
+The key is: Use stderr to output debug information. In C++, this means to use `cerr` instead of `cout` to output. CP Editor will show the stderr of your program in the Messages section.
+
+## Run on only selected test cases
+
+In CP Editor, you don't have to always run on all test cases.
+
+To tell CP Editor not to run on a certain test case, just uncheck the checkbox of that test case. You can also use the "More" menu to manage the checks: you can Check All, Uncheck All, Uncheck Accepted (very useful when you passed most test cases and want to debug on the unaccepted ones) and Invert.
+
+If you want to run on a single test case, you can simply click the "Run" button of that test case.
+
 ## Shortcuts in the Preferences Window
 
 You can use <kbd>Ctlr+D</kbd>, <kbd>Ctrl+R</kbd> and <kbd>Ctrl+S</kbd> for "Default", "Reset" and "Apply" respectively.

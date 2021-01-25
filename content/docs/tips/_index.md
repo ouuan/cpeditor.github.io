@@ -22,8 +22,6 @@ If you want to run on a single test case, you can simply click the "Run" button 
 
 ## Copy output to expected for problems with multiple correct answers
 
-
-
 ## Shortcuts in the preferences window
 
 You can use <kbd>Ctlr+D</kbd>, <kbd>Ctrl+R</kbd> and <kbd>Ctrl+S</kbd> for "Default", "Reset" and "Apply" respectively.
